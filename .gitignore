@@ -1,6 +1,13 @@
 .gradle
+<<<<<<< HEAD
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
 /build
+=======
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+>>>>>>> 9dc7a85015cfdec5ca08469da607331928b761c7
