@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="unit_list_width">40dp</dimen>
+    <dimen name="assign_list_pad">5dp</dimen>
+    <dimen name="calendar_event_main_text">18dp</dimen>
+    <dimen name="calendar_event_details">14dp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wazza.ke.servista" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".views.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".utilities.LimeService"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name=".views.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".views.UnitsRegistered"
+            android:label="Units" >
+        </activity>
+
+        <!-- <android:debuggable="true"></android:debugable> -->
+        <activity
+            android:name=".views.AssignmentsViewer"
+            android:label="@string/title_activity_assignments_viewer" >
+        </activity>
+        <activity
+            android:name=".views.EventsViewer"
+            android:label="@string/title_activity_events_viewer" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
